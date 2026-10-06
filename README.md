@@ -1,9 +1,9 @@
 # Decode Labs Data Analytics Internship
 
-**Intern:** Samson Oluwatimilehin Arawande
-**Role:** Data Analytics Intern
-**Internship Period:** 27 Sep 2026 – 27 Oct 2026 (Remote)
-**Tools:** Microsoft Excel, Power Query
+- **Intern:** Samson Oluwatimilehin Arawande
+- **Role:** Data Analytics Intern
+- **Internship Period:** 27 Sep 2026 – 27 Oct 2026 (Remote)
+- **Tools:** Microsoft Excel, Power Query
 
 ## Overview
 
