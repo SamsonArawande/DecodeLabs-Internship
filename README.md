@@ -20,7 +20,7 @@ Cleaned a 1,200-row order dataset — handled missing values, removed duplicates
 Analyzed the cleaned dataset to uncover patterns, trends, and outliers. Found a right-skewed order value distribution (mean about 28% above the median), confirmed 8 legitimate bulk-order outliers that do not drive the skew, identified underperforming and high-value product and channel segments, and checked correlations between key variables.
 
 ### [Project 3: SQL Data Analysis](./Project%203)
-Used SQL to query the same dataset with SELECT, WHERE, ORDER BY, GROUP BY, HAVING, and aggregations (COUNT, SUM, AVG). Found that the product with the highest average order value is not the one with the highest total revenue, and confirmed that SQL results match the earlier Excel analysis.
+Used SQL to query the same dataset with SELECT, WHERE, ORDER BY, GROUP BY, HAVING, and aggregations (COUNT, SUM, AVG). Found that 41% of orders were cancelled or returned and that several product rankings change when they are excluded, and confirmed that SQL results match the earlier Excel analysis.
 
 ## Approach
 
