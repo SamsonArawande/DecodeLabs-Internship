@@ -13,6 +13,7 @@ This repository contains my submission for Project 2 of the Data Analytics inter
 
 - **Calculated basic statistics** — mean, median, and count for Quantity, UnitPrice, and TotalPrice, revealing a right-skewed order value distribution (mean ~28% above median).
 - **Identified outliers using the IQR method** — found 8 outliers (0.67% of orders) in TotalPrice, all tied to the maximum order quantity (5 units). Inspected each one individually and confirmed they were legitimate bulk orders, not data errors.
+- **Tested whether the outliers cause the skew** — recalculated the mean and median without the 8 outliers; the gap barely moved (28.0% to 27.2%), so the skew comes from the whole distribution.
 - **Identified trends using PivotTables:**
   - By **Product** — order volume is evenly spread (156–181 orders), but Phone underperforms on both volume and average value, while Laptop drives the highest average order value.
   - By **ReferralSource** — Facebook-referred customers show the highest average order value despite moderate order volume, suggesting a higher-value customer segment.
@@ -32,4 +33,4 @@ All analysis was performed in Excel directly on the Orders_Clean dataset from Pr
 
 ## Key Finding
 
-Order value is right-skewed due to a small number of legitimate bulk orders. Phone is the weakest-performing product on both order volume and value, while Facebook-referred customers represent the highest-value segment across referral channels — both actionable insights for the business.
+Order value is right-skewed: the mean is about 28% above the median because of a long tail of larger orders across the whole dataset, not a few outliers. The 8 bulk-order outliers are legitimate, but excluding them barely changes the gap (28.0% to 27.2%). Phone is the weakest product on both order volume and value, while Facebook-referred customers have the highest average order value.
