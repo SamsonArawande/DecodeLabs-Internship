@@ -34,3 +34,4 @@ All 14 queries were run one at a time in DB Browser for SQLite against the Order
 ## Key Finding
 
 41.4% of orders were Cancelled or Returned, and that changes the picture. Counting every order placed, Laptop has the highest average order value but ranks third in total order value, and Chair and Printer are effectively tied for first. Excluding Cancelled and Returned orders, Printer ranks first, Chair has the highest average order value, and Laptop's lead disappears. Only one conclusion holds either way: Phone has the smallest total order value.
+None of the differences between products or channels is distinguishable from chance (tests run on the raw dataset), so the rankings describe this dataset and should not drive decisions on their own.
