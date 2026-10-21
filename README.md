@@ -22,7 +22,7 @@ Analyzed the cleaned dataset for patterns, trends, and outliers. Found a right-s
 ### [Project 3: SQL Data Analysis](./Project%203)
 Used SQL to query the same dataset with SELECT, WHERE, ORDER BY, GROUP BY, HAVING, and aggregations (COUNT, SUM, AVG). Found that 41% of orders were cancelled or returned and that several product rankings change when they are excluded, and confirmed that SQL results match the earlier Excel analysis.
 
-### [Project 4: Data Visualization (Optional)](./Project%204)
+### [Project 4: Data Visualization](./Project%204)
 Built a five-page Power BI report where every page states its conclusion and answers "So what?". Found that 41% of orders were cancelled or returned, and that the product, channel and trend patterns are small or borderline.
 
 ## Approach
